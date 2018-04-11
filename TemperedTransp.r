@@ -87,7 +87,7 @@ dev.off()
 
 #1. This assumes the running of all previous code for Algorithm 4.
 #2. Open the ciphertext.r file and run 
-y = ...
+y = "..."
 #to get message to encrypt and decrypt.
 #3. Highlight entire code and Run.
 #4. Watch decryptions
