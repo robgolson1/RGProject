@@ -91,3 +91,16 @@ decryptionRoutine <- function(N, codemess, mat,p) {
   return(c(iteration,decryptsub(codemess,curFunc),mean(a),bestFunc,score,score2))
 }
 
+## Instructions to run algorithm ## 
+
+#1. Run all above code
+#2. Run the following to get an encrypted text:
+message <- "the answer is seventy two to be or not to be that is the question whether tis nobler in the mind to suffer the slings and arrows of outrageous fortune or to take arms against a sea of troubles and by opposing end them"
+codemess <- decryptsub(message,sample(1:26))
+#3. Run the following to get the look-up matrix (presumes running of RefMatrix.r)
+mat <- freqanalysis(reference) 
+#4. Run the following
+decryptionRoutine(5000, codemess, mat,1)
+#5. Watch the decryptions
+
+
