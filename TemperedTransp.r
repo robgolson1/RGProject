@@ -80,6 +80,9 @@ points(c(1000,2000,3000,4000,5000,6000),c(A[1000],A[2000],A[3000],A[4000],A[5000
 dev.off()
 
 
+#Remove #'s above to acquire the code to run the algorithm 50 times consecutively. 
+
+
 ## Running the Algorithm ##
 
 #1. This assumes the running of all previous code for Algorithm 4.
@@ -88,3 +91,6 @@ y = ...
 #to get message to encrypt and decrypt.
 #3. Highlight entire code and Run.
 #4. Watch decryptions
+
+
+
